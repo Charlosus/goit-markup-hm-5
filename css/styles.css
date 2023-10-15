@@ -136,7 +136,7 @@ body {
       var(--Hero_background-color)
     ),
     url("../images/people-office1.jpg");
-  background-size: cover;
+  background-size: auto;
   height: 600px;
   padding: 188px 0;
 }
@@ -351,4 +351,9 @@ img {
 }
 .feature-name {
   margin-bottom: 8px;
+}
+.social-network-links {
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
 }
