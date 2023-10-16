@@ -145,6 +145,7 @@ body {
   background-position: center;
   height: 600px;
   padding: 188px 0;
+  margin: auto;
 }
 .rectangle {
   display: flex;
