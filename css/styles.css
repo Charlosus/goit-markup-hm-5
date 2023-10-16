@@ -436,8 +436,8 @@ img {
 }
 .customers-link:hover,
 .customers-link:focus {
-  border-color: #404bbf;
-  color: #404bbf;
+  border-color: var(--Pressed_state-color);
+  color: var(--Pressed_state-color);
 }
 .footer-header {
   font-weight: 500;
