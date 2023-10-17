@@ -455,6 +455,7 @@ img {
   display: flex;
   margin-top: 16px;
   gap: 16px;
+  justify-content: flex-start;
 }
 .footer-container {
   display: flex;
