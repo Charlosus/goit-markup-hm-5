@@ -530,7 +530,7 @@ img {
   background-color: var(--Pressed_state-color);
   border: none;
 }
-.page-indication {
+.page-indication:hover {
   position: relative;
   color: #404bbf;
 }
