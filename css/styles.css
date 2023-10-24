@@ -527,6 +527,7 @@ img {
 .modal-close-button:hover {
   background-color: var(--Pressed_state-color);
   border: none;
+  fill: #ffffff;
   background-color: var(--Pressed_state-color);
   border: none;
 }
@@ -579,7 +580,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--Accent-color);
   padding: 40px 32px;
-  background-color: var(--Primary_Brand-color);
+  background-color: var(--Light-color);
   height: 100%;
   width: 100%;
   transform: translateY(100%);
@@ -592,4 +593,19 @@ img {
 
 .product-link:focus .product-sliding-widnow {
   transform: translateY(0%);
+}
+.first-menu {
+  position: relative;
+  color: var(--Pressed_state-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.first-menu::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--Pressed_state-color);
+  border: 2px;
 }
