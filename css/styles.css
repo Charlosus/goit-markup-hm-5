@@ -597,7 +597,6 @@ img {
 .first-menu {
   position: relative;
   color: var(--Pressed_state-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .first-menu::after {
@@ -607,5 +606,5 @@ img {
   bottom: -1px;
   height: 4px;
   background-color: var(--Pressed_state-color);
-  border: 2px;
+  border-radius: 2px;
 }
